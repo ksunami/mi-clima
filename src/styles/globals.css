@@ -1,0 +1,73 @@
+/* 🌍 Global Styles - Solo lo esencial para el layout */
+
+/* 🔹 Reset básico para una mejor consistencia entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 🔹 Configuración del body */
+  body {
+    font-family: var(--font-geist-sans, Arial, sans-serif);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* Mejora en degradado */
+    color: #fff; /* Color de texto global */
+    min-height: 100vh; /* Asegura que el contenido ocupe toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* 🔹 Ajustes generales del contenedor */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* 🔹 Tipografía global */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  /* 🔹 Enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  /* 🔹 Botones generales */
+  button {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  /* 🔹 Scrollbar estilizada (opcional) */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #3a7bd5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 3px;
+  }
+  
+  

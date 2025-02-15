@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "commonjs", // 👈 Cambia a `commonjs` SOLO para Jest
+    "moduleResolution": "node", // 👈 Asegura que Jest resuelva módulos correctamente
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "types": [
+      "jest",
+      "node"
+    ], // 👈 Asegura que Jest tenga los tipos correctos
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "jest.config.js",
+    "tests/**/*" // 👈 Asegura que Jest pueda encontrar pruebas
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

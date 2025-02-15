@@ -147,7 +147,7 @@ npm run test:coverage
 
 
 ```markdown
-![Descripción de la imagen](docs/nombre-imagen.png)
+
 ```
 
 

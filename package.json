@@ -1,12 +1,14 @@
 {
   "name": "mi-clima",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://ksunami.github.io/mi-clima",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "predeploy": "npm run build && node scripts/postexport.js",
+    "deploy": "gh-pages -d out/mi-clima",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
@@ -35,10 +37,12 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-jest": "^29.7.0",
+    "gh-pages": "^5.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "msw": "^2.7.0",
     "postcss": "^8",
+    "shx": "^0.3.4",
     "tailwindcss": "^3.4.1",
     "ts-jest": "^29.2.5",
     "typescript": "^5"

@@ -139,7 +139,7 @@ const WeatherResponseComponent: React.FC<WeatherResponseComponentProps> = ({
 
         {/* Salida y puesta del sol */}
         <Box sx={infoTypographyStyles}>
-          {/* Espacio entre los elementos */}
+         
           <Box
             sx={{
               display: "flex",
@@ -151,8 +151,8 @@ const WeatherResponseComponent: React.FC<WeatherResponseComponentProps> = ({
               sx={{ marginRight: 1, fontSize: 30, color: "orange" }}
             />
             <Typography variant="body1">Amanecer: {sunrise}</Typography>
-            {/* Espacio entre los dos */}
-            <Box sx={{ flex: 1 }} /> {/* Esto crea un espacio flexible */}
+           
+            <Box sx={{ flex: 1 }} /> 
             <CircleIcon sx={{ marginRight: 1, fontSize: 30, color: "red" }} />
             <Typography variant="body1">Puesta de sol: {sunset}</Typography>
           </Box>

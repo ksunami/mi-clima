@@ -1,6 +1,6 @@
 import { Button, TextField, Box, FormHelperText, Typography } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-import ErrorIcon from "@mui/icons-material/Error"; // Ícono de error
+import ErrorIcon from "@mui/icons-material/Error"; 
 import { useState } from "react";
 import { SearchInputComponentProps } from "../../interfaces/types";
 import { textFieldStyles, buttonStyles, errorBoxStyles } from "./SearchInputComponent.styles";

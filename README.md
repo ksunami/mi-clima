@@ -6,13 +6,27 @@
 Mi Clima es una aplicación desarrollada con **Next.js**, **React**, **Redux Toolkit**, y **Material UI** que permite a los usuarios consultar el clima de cualquier ciudad en tiempo real.
 
 ## 🚀 Características
-✅ **Búsqueda en tiempo real** de ciudades y su clima actual.  
+✅ **Búsqueda de clima por ciudad:** Ingresa el nombre de una ciudad y obtén información actualizada del clima.  
 ✅ **Manejo de estado global** con Redux Toolkit.  
 ✅ **Interfaz moderna** con Material UI.  
-✅ **Pruebas unitarias e integradas** con Jest y Testing Library.  
+✅ **Manejo de errores:** Muestra mensajes adecuados cuando la ciudad no es encontrada o ocurre un error de red.
+✅ **Pruebas unitarias e integradas** con Jest y Testing Library para asegurar el correcto funcionamiento de la aplicación.  
 ✅ **Soporte para múltiples errores** en las solicitudes de API.  
 
----
+
+## Capturas de Pantalla
+
+### Página principal de Mi Clima
+![Mi Clima](doc/MiClima.png)
+
+### Error: Ciudad no encontrada
+![Ciudad no encontrada](doc/MiClimaCiudadNoEncontrada.png)
+
+### Resultado de la búsqueda de clima
+![Resultado del Clima](doc/MiClimaResultado.png)
+
+### Reporte de Test Coverage
+![Test Coverage](doc/TestCoverage.png)
 
 ## 📂 Estructura del Proyecto
 

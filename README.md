@@ -110,6 +110,12 @@ Para iniciar el entorno de desarrollo:
 npm run dev
 ```
 
+Abra en el navegador la siguiente url:
+
+http://localhost:3000/mi-clima
+
+---
+
 Para construir la aplicación para producción:
 
 ```bash

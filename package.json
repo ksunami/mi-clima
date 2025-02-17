@@ -1,7 +1,7 @@
 {
   "name": "mi-clima",
   "version": "0.1.0",
-  "homepage": "https://ksunami.github.io/mi-clima",
+ "homepage": "http://localhost:3000/mi-clima",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
